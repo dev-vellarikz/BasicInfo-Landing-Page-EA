@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f2f6ff;
+   
+
+}
+
+
+
+.main-wrapper{   /* Work on this make it center*/
+    width: 67%;
+    margin: 0 auto;
+    /* background-color: white; */
+    
+  }
+  
+/* Header Start*/
+
+.top-bar{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 16px 78px;
+    background-color: #fff;
+    box-shadow: 0px 1px 1px #ccc;
+    
+}
+
+.logo{
+    color: #0084ff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    width: 130px;
+    font-size: 32px;
+}
+
+.stories{
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+
+}
+
+.top-item2{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-left: 34px;
+
+    
+}
+
+
+
+/* Header End*/
+
+/* Categories start */
+
+.btn-grp{
+    display: flex;
+    flex-wrap: wrap;      /* Check in my marvel/dc project */
+    font-size: 16px;
+    padding-top: 16px;
+    margin-bottom: 20px;
+
+ 
+
+}
+
+.btn-items{
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+
+
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.btn-items:hover{      
+    color: #fff;
+    background-color: #0084ff;
+
+}
+.on:defined{                     /* Property made active */
+    color: #fff;
+    background-color: #0084ff;
+}
+    
+.filter-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-icon{
+    width: 25px;
+
+}
+
+.filter-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 6px;
+    
+}
+
+.latest-posts{
+    color: #000;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Categories end */
+
+/* Items start */
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white; */
+    
+}
+
+
+.grid-item{
+    width: calc(33% - 14px);
+    border: 1px solid rgba(0, 168, 255, .3);
+    border-radius: 6px;
+    margin: 7px;
+    
+}
+
+.img-grp{
+    width: 100%;
+    height: 176px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+  
+}
+
+article{
+    background-color: white;
+}
+
+
+.t-section{
+    padding: 10px 24px;
+ 
+}
+
+.title{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.des1{
+    padding-top: 4px;
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.da{
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Arial', sans-serif;
+}
+
+.des2{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.43;
+    color: rgb(0, 0, 0, .6);
+    margin: 4px 0;
+}
+
+
+
+
+
+
+footer{
+
+    background-color: #172146;
+    padding: 80px 16%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: bold;
+
+
+}
+
+
+
+
